@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+
+  --color-beige: #F5F3EF;
+  --color-green-dark: #0F3D2E;
+  --color-green-soft: #DDE5D3;
+  --color-ink: #1A1A1A;
+  --color-muted: #6B6B6B;
+}
+
+body {
+  background-color: var(--color-beige);
+  color: var(--color-ink);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
