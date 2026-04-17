@@ -14,14 +14,10 @@ export default function AboutPreview() {
         <h2 className="font-serif text-4xl md:text-5xl lg:text-[56px] text-[#1A1A1A] mb-12">Who We Are</h2>
         <div className="space-y-8 text-xl md:text-2xl lg:text-3xl text-[#6B6B6B] font-light leading-relaxed mb-12 text-balance lg:leading-[1.5]">
           <p>
-            <strong className="text-[#1A1A1A] font-medium">HRpreneurs</strong> is a full-service human resource management 
-            and advisory firm that partners with organizations to build 
-            strong, compliant, and future-ready workforces.
+            <strong className="text-[#1A1A1A] font-medium">HRpreneurs</strong> is a professional human resource management and advisory firm that partners with organizations to build strong, compliant, and future‑ready workforces.
           </p>
           <p>
-            We combine hands-on execution with strategic insight, 
-            helping businesses manage people operations with clarity, 
-            consistency, and confidence.
+            We provide end‑to‑end HR solutions that support businesses across the entire employee lifecycle—from talent acquisition and workforce planning to compliance, performance management, and HR transformation.
           </p>
         </div>
         <button className="bg-transparent text-[#1A1A1A] border border-[#1A1A1A] hover:bg-[#1A1A1A] hover:text-white transition-all duration-300 rounded-full px-10 py-4 font-medium text-lg">

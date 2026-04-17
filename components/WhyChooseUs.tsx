@@ -16,11 +16,11 @@ export default function WhyChooseUs() {
             <h2 className="font-serif text-4xl md:text-5xl lg:text-[56px] text-[#1A1A1A] mb-12 text-balance leading-tight">Why Choose Us</h2>
             <div className="space-y-6">
                {[
-                 "Execution-driven solutions",
-                 "Hands-on support with dedicated SPOC",
+                 "Customized End-to-End practical, execution driven solutions",
+                 "Experienced, Hands-On Support with dedicated SPOC/ relationship managers",
                  "Long-term partnership mindset",
-                 "Strong governance & compliance focus",
-                 "Flexible engagement models"
+                 "Strong Governance & Compliance focus",
+                 "Flexible Engagement Models"
                ].map((item, i) => (
                   <motion.div 
                     key={i}

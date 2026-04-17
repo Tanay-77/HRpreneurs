@@ -12,9 +12,11 @@ export default function Sectors() {
           <h2 className="font-serif text-4xl md:text-5xl lg:text-[56px] mb-16 text-balance text-white">Industries We Serve</h2>
           <div className="flex flex-wrap justify-center gap-4 md:gap-5">
              {[
-               "Banking & Finance", "E-Commerce & Retail", "Energy", 
-               "Education", "FMCG", "Technology", "Real Estate", 
-               "Healthcare", "Media & Entertainment", "Telecommunications"
+               "Banking", "E-Commerce & Retail", "Energy", 
+               "Education & Learning", "FMCG’s", "Internet", "Infrastructure", 
+               "Insurance", "Media & Entertainment", 
+               "Pharmaceuticals, Healthcare & Life Sciences", "Publishing", 
+               "Real Estate", "Technology & Telecommunications", "Textiles"
              ].map((sector, i) => (
                 <motion.div 
                    key={sector}
