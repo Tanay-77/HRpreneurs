@@ -43,28 +43,28 @@ export default function Hero() {
           {/* Top Left */}
           <div className="relative w-full h-full rounded-bl-[45%] rounded-tl-3xl rounded-tr-md rounded-br-none overflow-hidden shadow-sm bg-white/50">
             <div className="absolute top-0 left-0 w-[calc(200%+8px)] h-[calc(200%+8px)]">
-              <Image src="/image2.png" alt="Hero 1" fill className="object-cover" referrerPolicy="no-referrer" priority />
+              <Image src="/image2al.png" alt="Hero 1" fill className="object-cover" referrerPolicy="no-referrer" priority />
             </div>
           </div>
 
           {/* Top Right */}
           <div className="relative w-full h-full rounded-br-[45%] rounded-tl-md rounded-br-3xl rounded-bl-none overflow-hidden shadow-sm bg-white/50">
             <div className="absolute top-0 right-0 w-[calc(200%+8px)] h-[calc(200%+8px)]">
-              <Image src="/image2.png" alt="Hero 2" fill className="object-cover" referrerPolicy="no-referrer" priority />
+              <Image src="/image2al.png" alt="Hero 2" fill className="object-cover" referrerPolicy="no-referrer" priority />
             </div>
           </div>
 
           {/* Bottom Left */}
           <div className="relative w-full h-full rounded-tl-[45%] rounded-bl-3xl rounded-br-md rounded-tr-none overflow-hidden shadow-sm bg-white/50">
             <div className="absolute bottom-0 left-0 w-[calc(200%+8px)] h-[calc(200%+8px)]">
-              <Image src="/image2.png" alt="Hero 3" fill className="object-cover" referrerPolicy="no-referrer" priority />
+              <Image src="/image2al.png" alt="Hero 3" fill className="object-cover" referrerPolicy="no-referrer" priority />
             </div>
           </div>
 
           {/* Bottom Right */}
           <div className="relative w-full h-full rounded-tr-[45%] rounded-br-md rounded-bl-3xl rounded-tl-none overflow-hidden shadow-sm bg-white/50">
             <div className="absolute bottom-0 right-0 w-[calc(200%+8px)] h-[calc(200%+8px)]">
-              <Image src="/image2.png" alt="Hero 4" fill className="object-cover" referrerPolicy="no-referrer" priority />
+              <Image src="/image2al.png" alt="Hero 4" fill className="object-cover" referrerPolicy="no-referrer" priority />
             </div>
           </div>
         </div>
