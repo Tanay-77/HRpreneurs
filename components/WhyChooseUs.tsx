@@ -39,7 +39,7 @@ const trustItems = [
 ];
 
 
-// Animation Config for 5 slides: 4s pause, 1s move (25s total)
+// Animation Config for 5 slides: 2s pause, 1s move (15s total)
 const xArray = [
   "0%",     
   "0%",     
@@ -56,15 +56,15 @@ const xArray = [
 
 const timesArray = [
   0,                  
-  0.16,               
+  0.133,               
   0.20,               
-  0.36,               
+  0.333,               
   0.40,               
-  0.56,               
+  0.533,               
   0.60,               
-  0.76,               
+  0.733,               
   0.80,               
-  0.96,               
+  0.933,               
   1                   
 ];
 
@@ -102,7 +102,7 @@ export default function WhyChooseUs() {
                className="flex w-max"
                animate={{ x: xArray }}
                transition={{
-                 duration: 25,
+                 duration: 15,
                  repeat: Infinity,
                  ease: "easeInOut",
                  times: timesArray

@@ -27,7 +27,9 @@ export default function Navbar() {
         <div className={`max-w-[70rem] mx-auto rounded-full transition-all duration-500 flex items-center justify-between px-6 py-4 ${isScrolled ? 'bg-white/90 backdrop-blur-xl shadow-sm border border-white/20' : 'bg-transparent'
           }`}>
           <div className="flex items-center gap-2 relative z-10">
-            <span className="font-serif font-bold text-2xl tracking-tight text-[#0F3D2E]">HRpreneurs</span>
+            <Link href="/" className="cursor-pointer">
+              <span className="font-serif font-bold text-2xl tracking-tight text-[#0F3D2E]">HRpreneurs</span>
+            </Link>
           </div>
 
           <div className="hidden lg:flex items-center gap-8 text-sm font-medium">
